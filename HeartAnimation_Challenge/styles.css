@@ -1,0 +1,20 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@keyframes heart{
+    0%{width: 100px;}
+    25%{width: 200px;}
+    50%{width: 300px;}
+    100%{width: 400px;}
+}
+img{
+    width: 100px;
+    animation-name: heart;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+}
+
